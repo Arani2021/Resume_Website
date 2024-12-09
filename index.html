@@ -1,9 +1,10 @@
+# HTML File: index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <title>Arani Dasgupta's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -34,15 +35,28 @@
 
         <section id="skills">
             <h2>Skills</h2>
-            <p>HTML, CSS, VS Code, GitHub</p>
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>GitHub</span>
+            </div>
         </section>
 
         <section id="education">
             <h2>Education</h2>
-            <p>
-                Techno International Newtown
-            </p>
+            <p>Techno International Newtown</p>
             <p>2022 - 2026</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Number Guessing Game</h3>
+                <p>A simple Python project for guessing numbers.</p>
+                <a href="https://github.com/Arani2021/Number_Guessing/blob/main/numberguess.py" target="_blank">View on GitHub</a>
+            </div>
         </section>
 
         <section id="profiles">
@@ -65,5 +79,9 @@
             </p>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 Arani Dasgupta. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
